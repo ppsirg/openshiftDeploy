@@ -1,0 +1,15 @@
+{% extends "genLayout.html" %}
+
+{% block contenido %}
+<h1>Coinfest Bogotá - Asistentes</h1>
+<ul id="regLists">
+{% for register in object_list %}
+    <li>{{ register.reg_citizen.name }} {{ register.reg_citizen.lastname }}
+    - {{ register.reg_citizen.social }} <br>
+    <a href="/id/{{ register.pk }}">watch id</a> -
+    <a href="/pdf/{{ register.pk }}">pdf</a></li>
+{% empty %}
+    <li>No Attendees yet.</li>
+{% endfor %}
+</ul>
+{% endblock %}
