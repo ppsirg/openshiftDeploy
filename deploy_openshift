@@ -1,0 +1,22 @@
+openshift=servicio nube redhat
+deploy basado en git
+usa apache
+despliegue de python php java y muchos otros
+sistema de cartuchos (software) y gears (hardware)
+uno puede hacer sus propios cartuchos o comprarlos
+
+bonus: configurar git y crear identidades con ssh
+git config --global user.name tunombre
+git config --global user.email tuemail
+ssh-keygen -b 4048 -t rsa -C "un comentario cualquiera"
+
+ejemplo: deploy de django 1.7.3
+
+1 hacerse cuenta en openshift(https://www.openshift.com/app/account/new)
+2 poner el proyecto propio en un template
+3 escribir setup
+4 escribir htaccess
+5 crear aplicacion en openshift y seleccionar tipo de proyecto
+6 configurar git
+7 configurar llaves
+8 hacer push al repositorio
