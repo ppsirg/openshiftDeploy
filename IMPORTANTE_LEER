@@ -1,0 +1,7 @@
+CAMBIAR EL CORREO DE pedrorivera@emdyp.me a otro en la carpeta:
+blpass/wsgi/blpass/blpass/settings.py
+en la linea 24 y poner el correo de ustedes, asi como esta me llegan
+los errores de sus aplicaciónes a mi :)
+
+tambien cambien en la linea 35 la palabra emdyptests por el nombre
+de dominio de la cuenta de openshift que crearon
